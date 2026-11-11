@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 05</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+       header{
+        background-color: rgb(10, 133, 133);
+       }
+       footer{
+        background-color: rgb(69, 21, 124);
+       }
+       section{
+        background-color: beige ;
+       }
+       nav{
+        background-color: rgb(136, 143, 143);
+       }
+       aside{
+
+       }
+      ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            border: 1px solid blue;
+            background-color: antiquewhite;
+            padding: 0.1em;
+        }
+        .holy_grail{
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: auto 1fr auto;
+        }
+        .holy_grail > header{
+            grid-column: 1 / 4;
+        }
+        .holy_grail> footer{
+             grid-column: 1 / 4;
+        }
+        .holy_grail > section{
+            overflow: auto;
+        }
+    
+
+
+    </style>
+
+</head>
+<body>
+    <main>
+      
+        <article class="holy_grail" >
+            <header>  <h1 >Exemplo 05: Holy Grail
+             </h1></header>
+            <nav>
+    <ul >
+                <li>Primeiro</li>
+                <li>Segundo</li>
+                <li>Terceiro</li>
+                <li>Quarto</li>
+             </ul>
+            </nav>
+               <section>
+            <h2>Texto</h2>
+            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, velit voluptates? Assumenda nobis officiis earum. Est tempora cumque enim ex odio? Dignissimos esse magnam suscipit maxime id doloremque quia nobis?</P>
+            <P>Vel, quasi possimus id sunt aperiam modi animi vero unde quam tenetur, sint natus voluptatum non esse? Molestias qui laborum praesentium perspiciatis odio nobis laboriosam hic? Minima sit suscipit ipsa.</P>
+            <P>Fugit vel atque placeat sunt voluptas cumque quisquam iusto autem! Consectetur fugit sed laudantium sunt impedit ipsam delectus culpa iure dolorum, maxime error voluptas, fuga laborum numquam dolores harum ad.</P>
+        </section>
+         <aside>
+            
+    <ul >
+                <li>Primeiro</li>
+                <li>Segundo</li>
+                <li>Terceiro</li>
+                <li>Quarto</li>
+             </ul>
+
+         </aside>
+        <footer>
+            &COPY; 2026 - DCC202 - UFJF
+        </footer>
+        </article>
+      
+       
+    </main>
+</body>
+</html>
